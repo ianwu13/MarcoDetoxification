@@ -13,5 +13,5 @@ eval "$(conda shell.bash hook)"
 conda activate marco
 
 # run
-cd ../training
+cd ..
 python3 finetune_bart.py --max_steps 2
