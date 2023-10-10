@@ -11,5 +11,5 @@ eval "$(conda shell.bash hook)"
 conda activate marco
 
 pip install -r requirements.txt
-conda install pytorch pytorch-cuda=11.8 -c pytorch -c nvidia
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
