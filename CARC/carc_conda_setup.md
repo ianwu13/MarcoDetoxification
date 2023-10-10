@@ -11,5 +11,5 @@ eval "$(conda shell.bash hook)"
 conda activate marco
 
 pip install -r requirements.txt
-conda install pytorch pytorch-cuda=12.1 -c pytorch -c nvidia
+conda install pytorch pytorch-cuda=11.8 -c pytorch -c nvidia
 ```
