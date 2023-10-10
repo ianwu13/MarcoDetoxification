@@ -1,11 +1,11 @@
 ```
-mkdir -p /models/toxic
+mkdir -p models/toxic
 mkdir logs
 ```
 
 ```
 module load conda
-conda env create python=3.8 -n marco
+conda create --name marco python=3.10
 eval "$(conda shell.bash hook)"
 
 conda activate marco

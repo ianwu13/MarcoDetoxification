@@ -14,4 +14,4 @@ conda activate marco
 
 # run
 cd ../training
-python3 finetune_bart.py --args
+python3 finetune_bart.py --max_steps 2
