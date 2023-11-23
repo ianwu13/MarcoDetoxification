@@ -202,7 +202,7 @@ if __name__ == '__main__':
     parser.add_argument("--lr", type = float, default = 2.5e-5)
     parser.add_argument("--logging_steps", type = int, default = 500)
     parser.add_argument("--seed", type = int, default = 0)
-    parser.add_argument("--fp16", action = "store_true")
+    parser.add_argument("--fp16", action = "store_true")  # TODO: LOOK AT THIS
     parser.add_argument("--save_total_limit", type = int, default = 2)
     parser.add_argument("--save_steps", type = int, default = 500)
     parser.add_argument("--data_type",default = "jigsaw_full_30")
