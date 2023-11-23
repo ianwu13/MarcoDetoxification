@@ -136,14 +136,6 @@ def do_rewrites(inputs, args):
         # print(rephrase)
         time.sleep(1.1)
 
-        # TODO: TESTING
-        len_check = 2
-        if len(outputs) == len_check:
-            for i, o in zip(inputs[:len_check], outputs):
-                print(f"SAMPLE:\n\tIN-PUT: {i}\n\tOUTPUT: {o}")
-            # exit()
-            break
-
     return outputs
 
 def rewrite(args):
