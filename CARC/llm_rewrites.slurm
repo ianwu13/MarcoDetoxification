@@ -3,6 +3,7 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --time=07:00:00
 #SBATCH --account=jonmay_231
+#SBATCH --output=rewrites_output.out
 
 # setup
 module purge
